@@ -68,7 +68,7 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         {% for job in jobs.all %}
         <div class="col-md-4">
-          <a href="{% static url 'detail' job.id %}">
+          <a href="{% url 'detail' job.id %}">
           <div class="card mb-4 shadow-sm">
                 <img class="card-img-top" src="{{job.image.url}}" height=300></img>
 
