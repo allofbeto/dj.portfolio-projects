@@ -12,4 +12,4 @@ def detail(request, job_id):
     return render(request, 'jobs/detail.html', {'job':job_detail})
 
 def mobio(request):
-    return render(request, 'mobio/mobio.html',)
+    return render(request, 'mobio/main.html',)
